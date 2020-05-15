@@ -1,0 +1,136 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "cmd+shift+v",
+    "command": "pasteAndIndent.action",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+up",
+    "command": "editor.emmet.action.incrementNumberByOne",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "editor.emmet.action.decrementNumberByOne",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+up",
+    "command": "workbench.action.togglePanel"
+  },
+  {
+    "key": "cmd+j",
+    "command": "-workbench.action.togglePanel"
+  },
+  {
+    "key": "shift+cmd+;",
+    "command": "workbench.debug.panel.action.clearReplAction"
+  },
+  {
+    "key": "shift+cmd+down",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "shift+alt+w",
+    "command": "editor.emmet.action.wrapIndividualLinesWithAbbreviation"
+  },
+  {
+    "key": "cmd+b",
+    "command": "editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "f2",
+    "command": "-editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+e cmd+i",
+    "command": "editor.emmet.action.balanceIn"
+  },
+  {
+    "key": "cmd+e cmd+o",
+    "command": "editor.emmet.action.balanceOut"
+  },
+  {
+    "key": "cmd+e cmd+t",
+    "command": "editor.emmet.action.matchTag"
+  },
+  {
+    "key": "cmd+e cmd+b",
+    "command": "editor.emmet.action.updateTag"
+  },
+  {
+    "key": "Escape",
+    "command": "extension.jumpy-exit",
+    "when": "editorTextFocus && jumpy.isJumpyMode"
+  },
+  {
+    "key": "shift+cmd+i",
+    "command": "emmet.expandAbbreviation"
+  },
+  {
+    "key": "cmd+k cmd+s",
+    "command": "workbench.files.action.showActiveFileInExplorer"
+  },
+  {
+    "key": "cmd+r",
+    "command": "-workbench.action.reloadWindow",
+    "when": "isDevelopment"
+  },
+  {
+    "key": "cmd+u",
+    "command": "cursorUndo",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+u",
+    "command": "-cursorUndo",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+s",
+    "command": "cursorDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "-cursorDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+a",
+    "command": "cursorLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-cursorLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+d",
+    "command": "cursorRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "-cursorRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+w",
+    "command": "cursorUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-cursorUp",
+    "when": "textInputFocus"
+  }
+]
